@@ -2,7 +2,7 @@
 
 Course link [https://courses.chaicode.com/learn/batch/30-days-of-Javascript-challenge]
 
-## Day 1 : Variables and Data Types ✅
+## Day 1 : Variables and Data Types
 
 1. Value of the `const` variable must be given during its initilization itself.
 2. You can't reassign any value to a const var.
@@ -53,3 +53,26 @@ Use and operator `&&` and `||` or operator together instead of if-else-if :)
 3. Arrow functions are best suited for non-method functions (functions not attached to objects) and should not be used as constructors.
 4. Arrow functions have their own limitations, such as not having access to the arguments object.
 5. A higher-order function (HOF) is a concept in programming where a function accepts another function as an argument and returns a function as its result. In other words, it treats other functions as first-class citizens, allowing them to be used just like other data types (such as strings or numbers) in your code
+
+## Day 6 : Arrays
+
+1. Arrays in JS can store any data types.
+
+    ```js
+    let myArray = ['mango','banana',true,100]
+    ```
+
+2. Javascript doesn't support negative      indexing. 
+Use `length` to check the no. of elements an array has.
+
+1. `push` and `pop` works from the end of array, where as `shift` and `unshift` works from start of array.
+2. `shift/unshift` affects the indexing of all the elements in the array.
+3. `Push` allows you to push more than one elements at once.
+
+4. `map()`, `reduce()`, `filter()` all are higher order funtions and they take a callback function (CB Funtn )as a parameter.
+5. `Reduce()` it take a CB funtn and initial value, [ref. MDN reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)]
+
+6. Use `ForEach` to iterate over an array.
+7. 2D array, array inside an array :)
+8.  2D array manually or other way like `from()`
+[ref. GFG 2D array](https://www.geeksforgeeks.org/how-to-create-two-dimensional-array-in-javascript/)
