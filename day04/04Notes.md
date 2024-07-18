@@ -6,7 +6,7 @@
 
 ![alt text](<Screenshot from 2024-07-16 11-25-41.png>)
 
-## Learnings :
+## Learnings
 
 1. How to use different loops.
 2. In loop outer loop runs for the no. of rows u want the pattern to print where as inner loop is for the col.
