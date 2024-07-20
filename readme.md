@@ -76,3 +76,18 @@ Use `length` to check the no. of elements an array has.
 7. 2D array, array inside an array :)
 8.  2D array manually or other way like `from()`
 [ref. GFG 2D array](https://www.geeksforgeeks.org/how-to-create-two-dimensional-array-in-javascript/)
+
+## Day 7: Objects
+
+1. Ojects in JS
+
+    ```js
+    const myObject = {name:'utpal',age:'22',location:'Pune',role:'Dev'}
+    ```
+
+2. `ForEach` iterates over the array elements and executes a provided function for each item. However, it doesn’t return any value or anything.
+
+3. `map()` method in JavaScript is used with arrays. It creates a new array by applying a provided function to each element in the original array.
+
+4. Arrow function don't have their `this` context.
+
