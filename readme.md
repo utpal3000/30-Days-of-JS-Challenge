@@ -91,3 +91,34 @@ Use `length` to check the no. of elements an array has.
 
 4. Arrow function don't have their `this` context.
 
+## Day 8: ES6+ Features
+
+
+1. Tempalate literals ie use of backticks to for string, in which u can take variable using `${variable_name}`.
+
+```js
+// eg:
+const myage=`Age: ${age}`;
+```
+
+2. Object literals are cool
+
+3. Object destructing is cool
+
+4. Enchanced object literals with computed property names is cool.
+
+
+## Day 9 : DOM Manipulations
+
+1. Use `getElementById` to select elements by id name.
+2. We can modify text content of an element using `textContent`
+3. Use `.style` to style any element.
+4. We can add new elements to any element using `appendChild()`
+5. Use `remove()` to remove any element/child from an element.
+6. Use `lastElementChild` to access the last element of an parent element.
+7. We can replace attributes of an element by replacing the orignal.
+8. We can add event listner to  buttons using `addEventListener`
+9. There are many types of event listener like `mouseover` and `mouseout`.
+10. To select an element we can use `querySelector` it selects the first element only.
+11. Where as `querySelectorAll` selects all the elements of the given value.
+
