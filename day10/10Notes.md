@@ -1,4 +1,4 @@
-# Day 10 : Event Listeners
+# Day 10 : Event Handling
 
 ## Tasks Activities:
 ### Activity 1: Basic Event Handling
