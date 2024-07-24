@@ -122,3 +122,13 @@ const myage=`Age: ${age}`;
 10. To select an element we can use `querySelector` it selects the first element only.
 11. Where as `querySelectorAll` selects all the elements of the given value.
 
+## Day 10 : Event Listeners
+
+1. We have many types of event listeners like `click` for on click, `dblclick` for double click.
+2. We have two basic one `mouseover` to trigger and event when hover over the element.
+3. Second, `mouseout` to trigger the event when remove mouse from the element.
+4. There are two basic key event listener one, `keydown` the event triggers once the user pressed a key where as the `keyup` triggers after the user has pressed the key and released the button.
+5. We can prevent default behaviour of any form using  `preventDefault()` for `submit` event.
+6. We also have a `change` event it triggers when there's any change in an element such as dropdown menu, a value,etc.
+7. Event delegation means handling events on or off child elements of a parent by just using the parent element. Use the trigger on parent it will work for the child too.
+8. Dynamucally added child can be through button like  `appendChild()` on button click event.

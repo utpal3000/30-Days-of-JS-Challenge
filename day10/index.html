@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="header" class="text-3xl bg-[#06D6A0] text-center">Day 10</div>
+    <div id="one" class="bg-[#06D6A0] p-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae corrupti quas, atque reiciendis quod nisi ex totam itaque, inventore provident eius nam harum officia, voluptate culpa dicta minus excepturi quaerat!</p>
+        <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Click me</button>
+        <img class="bg-green-200 rounded h-80 w-60 p-2" src="https://images.pexels.com/photos/1650032/pexels-photo-1650032.jpeg" alt="image"   >
+    </div>
+    <div id="two" class="bg-[#f61067] h-60 w-full text-slate-100">
+        <h1 class="text-3xl p-1 text-center">Change background color</h1>
+    </div>
+    <div id="three" class="bg-[#5e239d] text-2xl text-slate-100 p-2 h-60">Keybord event
+        <input class="rounded m-2 w-50 text-slate-800" type="text">
+        <p id="thirdpara" class="text-sm italic">Type to chage the paragraph contents.</p>
+    </div>
+    <div id="four" class="bg-[#9ba2ff] p-2 ">
+        <form class="p-1 m-1 rounded" action="" method="post">
+            <label class="p-1 m-1 for="name">Name:</label>
+            <input class="rounded p-1 m-1" type="text" name="name" id="name" placeholder="Name">
+            <label for="email">Email:</label>
+            <input class=" rounded p-1 m-1" type="text" name="email" id="email" placeholder="Email">
+            <button class="p-1 m-1 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+        </form>
+<hr>
+        <p id="city" class="text-3xl text-center p-2 m-2">
+
+        </p>
+
+        <div class="ml-auto flex items-center">
+            <span class="mr-3 text-sm font-semibold">City</span>
+            <div class="relative">
+              <select class="appearance-none rounded border border-gray-300 py-2 pl-3 pr-10 text-sm focus:border-black focus:outline-none focus:ring-2 focus:ring-black">
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Chennai</option>
+                <option>Bengaluru</option>
+                <option>Hyderabad</option>
+                <option>Patna</option>
+                <option>Gujarat</option>
+                <option>Jaipur</option>
+                <option>Bhopal</option>
+              </select>
+              <span class="pointer-events-none absolute right-0 top-0 flex h-full w-10 items-center justify-center text-center text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-down"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </div>
+    </div>
+    </div>
+    <div id="five" class="bg-[#e8e1ef] h-100% p-2">
+    <ul id="mern">
+      <li class="border border-pink-300 rounded px-2">React JS</li>
+      <li class="border border-pink-300 rounded px-2">MongoDB</li>
+      <li class="border border-pink-300 rounded px-2">Node JS</li>
+      <li class="border border-pink-300 rounded px-2">Express JS</li>
+    </ul>
+
+    <div id="parent" class="flex p-2">
+      <button id="addButton" class="bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded">Add More!</button>
+    </div>
+  </div>
+</body>
+<script src="eventListeners.js"></script>
+</html>
