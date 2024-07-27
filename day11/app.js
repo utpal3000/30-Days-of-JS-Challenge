@@ -105,4 +105,50 @@ const testPromise = new Promise((resolve,reject) => {
 
 task5Promise(testPromise);
 
-// task 6. 
+// task 6 - Use the fetch API to get data from a public API and log the response data to the console using promises.
+
+fetch('https://fakestoreapi.com/products/1')
+            .then(res=>res.json())
+            .then(json=>console.log(json));
+
+
+// task 7 :Use the fetch API to get data from a public API and log the response data to the console using async/await.
+
+const myUsers = async function(){
+    let data = await fetch('https://fakestoreapi.com/users/2')
+    data = await data.json();
+    console.log("Task 7 - My users data :",data);
+    return data;
+}
+
+myUsers();
+
+// 8. 
+const eightPromise= Promise.resolve("Eight Task Done - Resolved.")
+
+const fooTest = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("foo");
+    }, 100);
+});
+
+Promise.all([eightPromise,myPromise,fooTest]).then(values=>console.log(values));
+
+// 9. 
+// Example promises (replace with your actual promises)
+const myPromise2 = new Promise((resolve) => {
+    setTimeout(() => resolve("My second promise resolved!"), 1000);
+});
+
+const fooTest2 = new Promise((resolve) => {
+    setTimeout(() => resolve("Foo test resolved!"), 500);
+});
+
+const NinePromise = Promise.resolve("Nine Task Done - Resolved.");
+
+// Using Promise.race() to race the promises
+Promise.race([NinePromise, myPromise2, fooTest2]).then((ninethValue) => {
+    console.log("Result of the fastest promise:", ninethValue);
+});
+
+// Done.

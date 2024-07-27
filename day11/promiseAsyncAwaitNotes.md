@@ -32,3 +32,12 @@ By the end of these activities, students will:
 • Use async/await to handle asynchronous code more readably.
 • Fetch data from public APIs using both promises and async/await.
 • Manage multiple concurrent promises using Promise.all and Promise. race.
+
+## My Learnings :
+1. `json()` it is a promise.
+2. `Promise.all()` waits for all fulfillments (or the first rejection).
+3. Syntax for promise race 
+```js
+Promise.race(iterable)
+// iterable can be an iterable object like an array-object
+```
